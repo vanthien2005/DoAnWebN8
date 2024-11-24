@@ -1,0 +1,22 @@
+#content-introduce {
+  border: 1px solid black;
+  margin: 0px 100px;
+  background-color: bisque;
+}
+.content-introduce1 {
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+.content-introduce2,
+.content-introduce3,
+.content-introduce4,
+.content-introduce5,
+.content-introduce6 {
+  font-size: 25px;
+  padding-bottom: 23px;
+}
+.content-introduce2 {
+  padding-top: 10px;
+}

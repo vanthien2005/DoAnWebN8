@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="cart.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Nhập Địa Chỉ</h2>
+      <form id="addressForm">
+        <label for="houseNumber">Số nhà:</label>
+        <input
+          type="text"
+          id="houseNumber"
+          name="houseNumber"
+          placeholder="VD: 123"
+          required
+        />
+
+        <label for="street">Đường:</label>
+        <input
+          type="text"
+          id="street"
+          name="street"
+          placeholder="VD: Nguyễn Trãi"
+          required
+        />
+
+        <label for="ward">Phường/Xã:</label>
+        <input
+          type="text"
+          id="ward"
+          name="ward"
+          placeholder="VD: Phường 5"
+          required
+        />
+
+        <label for="district">Quận/Huyện:</label>
+        <input
+          type="text"
+          id="district"
+          name="district"
+          placeholder="VD: Quận 1"
+          required
+        />
+
+        <label for="city">Tỉnh/Thành phố:</label>
+        <input
+          type="text"
+          id="city"
+          name="city"
+          placeholder="VD: TP. Hồ Chí Minh"
+          required
+        />
+
+        <button type="button" onclick="submitForm(), addDiaChi(), buy2()">Gửi</button>
+      </form>
+    </div>
+    </div>
+    
+    <div class="cart-container">
+      <h1>Shopping Cart</h1>
+      <!-- Danh sách các hoá đơn -->
+      <div id="bill"></div>
+      <!-- Tiêu đề bảng giỏ hàng -->
+      <div class="cart-header">
+        <div class="cart-header-item"></div>
+        <div class="cart-header-item">Tên sản phẩm</div>
+        <div class="cart-header-item">Giá</div>
+        <div class="cart-header-item">Số lượng</div>
+        <div class="cart-header-item">Size</div>
+        <div class="cart-header-item">Tổng tiền</div>
+        <div class="cart-header-item"></div>
+      </div>
+
+      <div id="cart-items" class="cart-items"></div>
+
+      <!-- Tổng tiền và các nút hành động -->
+      <div class="cart-footer">
+        <div class="cart-actions">
+          <button
+            id="clear-cart"
+            onclick=" deleteCart()"
+            class="action-btn clear-btn"
+          >
+            Xóa Tất Cả
+          </button>
+          <button
+            id="checkout"
+            class="action-btn checkout-btn"
+            onclick="buy1(),updateSize()"
+          >
+            Thanh Toán
+          </button>
+        </div>
+        <h2>Thành tiền: <span id="total-payment">0</span> VND</h2>
+      </div>
+    </div>
+    <div id="customalert"></div>
+
+    <script src="cart.js"></script>
+  </body>
+</html>

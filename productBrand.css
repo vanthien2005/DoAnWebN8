@@ -1,0 +1,75 @@
+.productDisplayHome {
+  margin-top: 120px;
+}
+.otherTypeBrand article {
+  margin: 10px 0px 10px 40px;
+  display: inline-block;
+}
+.listBrandProduct {
+  /* border: 1px solid black; */
+  margin: 85px 50px 0px;
+}
+.listTypeBrand {
+  margin-top: 10px;
+}
+.managerListTypeBrand {
+  display: flex;
+  justify-content: space-around;
+}
+/* .allProductShoes {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 1px solid black;
+  } */
+/* .allProductShoes article {
+    margin: 10px 0px 10px 40px;
+    display: inline-block;
+  } */
+.managerListTypeBrand a {
+  font-size: 25px;
+  margin-top: 5px;
+  color: aliceblue;
+}
+.managerImgBrand {
+  position: relative;
+}
+.managerImgBrand img:last-child {
+  position: absolute;
+  left: 0;
+  top: -265px;
+  display: none;
+}
+.managerImgBrand:hover img:last-child {
+  display: block;
+}
+.managerImgBrand img {
+  width: 280px;
+  height: 280px;
+}
+.managerContentBrand {
+  font-size: 20px;
+  display: inline-block;
+  width: 280px;
+  color: aliceblue;
+}
+.managerContentBrand p:first-child {
+  overflow-wrap: break-word;
+  height: 40px;
+}
+.managerContentBrand p:first-child {
+  margin-top: 5px;
+}
+.managerContentBrand p:last-child {
+  margin-top: 7px;
+}
+.backHome {
+  margin-left: 40px;
+  font-size: 35px;
+  width: 70px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,77 @@
+.listClothesProduct article {
+  display: block;
+}
+.detailProductClothes {
+  /* border: 1px solid black; */
+  margin: 0 50px;
+  margin-top: 87px;
+}
+#showDetailClothes {
+  /* border: 1px solid black; */
+  margin-top: 5px;
+}
+.managerDetailClothes {
+  display: flex;
+  /* border: 1px solid black; */
+  margin: 0 45px;
+}
+.managerImgDetailClothes {
+  display: flex;
+  flex-direction: column;
+}
+.managerImgDetailClothes a:first-child img {
+  width: 500px;
+  height: 470px;
+}
+.managerImgDetailClothes a:last-child img {
+  width: 122px;
+  height: 115px;
+}
+.managerContentDetailClothes {
+  /* margin-top: 40px; */
+  margin-left: 80px;
+  color: aliceblue;
+}
+.managerContentDetailClothes p:first-child {
+  font-size: 50px;
+  margin-top: 20px;
+}
+.managerContentDetailClothes p:nth-child(2) {
+  font-size: 35px;
+  color: red;
+  margin-top: 10px;
+}
+.managerContentDetailClothes p:nth-child(4) {
+  font-size: 25px;
+  margin-top: 10px;
+}
+.managerContentDetailClothes a {
+  display: block;
+  font-size: 20px;
+  text-decoration: underline;
+  margin-top: 15px;
+}
+.managerContentDetailClothes ul li {
+  list-style: disc;
+  font-size: 25px;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+.managerContentDetailClothes > button {
+  font-size: 23px;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.managerContentDetailClothes div button {
+  font-size: 22px;
+  margin-top: 15px;
+  height: 65px;
+  width: 260px;
+  margin-right: 40px;
+  background-color: rgb(23, 23, 23);
+  color: rgb(255, 229, 229);
+  cursor: pointer;
+}

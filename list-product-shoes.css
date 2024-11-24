@@ -1,0 +1,111 @@
+.show-all-product-shoes-in-store {
+  display: flex;
+  /* border: 1px solid black; */
+  margin: 0 100px;
+}
+.list-detail-types-shoes-in-store {
+  width: calc(100% - 10%);
+  /* border: 1px solid black; */
+}
+.main-type-shoes {
+  display: inline-block;
+  font-size: 35px;
+  margin-top: 100px;
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  /* padding-left: -40px; */
+}
+.types-shoes-other li {
+  list-style: none;
+  font-size: 25px;
+  /* margin-right: 10px; */
+  margin: 25px 0px;
+  /* border: 1px solid black;  */
+  width: 100%;
+}
+.types-shoes-other li a {
+  display: inline-block;
+  text-decoration: none;
+  /* margin: 20px 0px; */
+  width: 100%;
+}
+/* Tung phan tu co trong list menu */
+.all-types-product-shoes-in-store {
+  display: flex;
+  flex-wrap: wrap;
+  /* width: calc(100% - 10%); */
+  margin-left: 20px;
+  /* perspective: 1000px; */
+}
+.all-types-product-shoes-in-store a {
+  text-decoration: none;
+}
+.product-shoes-artificial-turf-shoes {
+  transition: transform 0.3s ease;
+  width: 300px;
+}
+.all-types-product-shoes-in-store article {
+  /* border: 1px solid black; */
+  /* width: 350px; */
+  margin: 10px 0px 0px 20px;
+  /* overflow: hidden; */
+}
+.all-types-product-shoes-in-store article:hover {
+  transform: scale(1.1);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3); /*Tăng bóng đổ khi hover*/
+  height: 415px;
+  /* width: auto; */
+}
+.img-shoes-artificial-turf-shoes {
+  position: relative;
+}
+.img-shoes-artificial-turf-shoes a {
+  display: inline-block;
+}
+.img-shoes-artificial-turf-shoes a img {
+  width: 300px;
+  height: 330px;
+  /* transition: transform 0.3s ease; */
+}
+/* .img-shoes-artificial-turf-shoes a img:hover {
+  transform: scale(1.1); Tăng kích thước hình ảnh khi hover
+} */
+.img-shoes-artificial-turf-shoes-then {
+  position: absolute;
+  /* z-index: 2; */
+  left: 0;
+}
+.img-shoes-artificial-turf-shoes-then img {
+  display: none;
+}
+.all-types-product-shoes-in-store
+  article:hover
+  .img-shoes-artificial-turf-shoes-then
+  img {
+  display: block;
+}
+.name-shoes-artificial-turf-shoes {
+  font-size: 19px;
+  margin-top: 5px;
+}
+.price-detail-shoes-artificial-turf-shoes {
+  display: flex;
+  /* border: 1px solid black; */
+  margin-top: 5px;
+}
+.price-shoes-artificial-turf-shoes {
+  font-size: 20px;
+  margin-top: -10px;
+  margin-left: 5px;
+  color: red;
+}
+.detail-shoes-artificial-turf-shoes {
+  margin-left: auto;
+  margin-top: -7px;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+.name-shoes-artificial-turf-shoes {
+  overflow-wrap: break-word;
+}

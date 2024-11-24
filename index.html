@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="introduce.css">
+    <link rel="stylesheet" href="login-logout.css">
+    <link rel="stylesheet" href="support-customer.css">
+    <link rel="stylesheet" href="invoice.css">
+    <link rel="stylesheet" href="product-highlight.css">
+    <link rel="stylesheet" href="productShoes.css">
+    <link rel="stylesheet" href="showDetailShoes.css">
+    <link rel="stylesheet" href="productClothes.css">
+    <link rel="stylesheet" href="showDetailClothes.css">
+    <link rel="stylesheet" href="productBrand.css">
+    <link rel="stylesheet" href="showDetailBrand.css">
+    <link rel="stylesheet" href="showDetailSpecial.css">
+    <title>Store-Sporty</title>
+  </head>
+  <body>
+    <header class = "header-web">
+        <div class = "header-fixed">
+          <div class="login login--fixed">
+            <li class="login1">
+              CAM KẾT HÀNG CHÍNH HÃNG PHÂN PHỐI CHÍNH NGẠCH - XUẤT VAT ĐẦY ĐỦ
+            </li>
+            <a href="#" class="login2" data-content = "about">Giới thiệu</a>
+            <a href="#" class="login3" data-content = "CSKH">Trung tâm CSKH</a>
+            <a href="#" class="login4" data-content = "login">Đăng nhập</a>
+            <a href="#" class="login5" data-content = "register">Đăng kí</a>
+          </div>
+        <main class="event event--fixed">
+          <div class="logo">
+            <img
+              src="https://img3.thuthuatphanmem.vn/uploads/2019/10/01/logo-bong-da-viet-nam_103806346.jpg"
+            />
+          </div>
+          <div class="nav">
+            <li class="tc">
+              <a href="?">TRANG CHỦ</a>
+            </li>
+            <li class="shoes">
+              <a href="#" data-type="all" class = "navShoes"> GIÀY BÓNG ĐÁ </i></a>
+              <ul class="shoes2">
+                <li><a href="#" data-type = "all">TẤT CẢ SẢN PHẨM</a></li>
+                <li><a href="#" data-type="artificialGrassShoes">GIÀY CỎ NHÂN TẠO</a></li>
+                <li><a href="#" data-type = "naturalGlassShoes">GIÀY CỎ TỰ NHIÊN</a></li>
+                <li><a href="#" data-type = "kidsShoes">GIÀY BÓNG ĐÁ TRẺ EM</a></li>
+              </ul>
+            </li>
+            <li class="clothes">
+              <a href="#" data-type = "allClothes" class = "navClothes">QUẦN ÁO BÓNG ĐÁ </i></a>
+              <ul class="clothes2">
+                <li style="padding-top: 18px; padding-left: 10px;">
+                  <a href="#" data-type = "allClothes">TẤT CẢ SẢN PHẨM</a>
+                </li>
+                <li style = "padding-left: 10px;">
+                  <a href="#" data-type = "clubFootballClothing">QUẦN ÁO CÁC CÂU LẠC BỘ</a>
+                </li>
+                <li style = "padding-left: 10px;">
+                  <a href="#" data-type = "nationalFootballClothing">QUẦN ÁO ĐỘI TUYỂN QUỐC GIA</a>
+                </li>
+                <li style = "padding-left: 10px;">
+                  <a href="#" data-type = "childrenFootballClothing">QUẦN ÁO BÓNG ĐÁ TRẺ EM</a>
+                </li>
+              </ul>
+            </li>
+            <li class="brand">
+              <a href="#" data-type = "allBrand" class = "navBrand">THƯƠNG HIỆU </i></a>
+              <ul class="brand2">
+                <li>
+                  <a href="#" data-type = "allBrand">TẤT CẢ SẢN PHẨM</a>
+                </li>
+                <li>
+                  <a href="#" data-type = "Nike">NIKE</a>
+                </li>
+                <li>
+                  <a href="#" data-type ="Adidas">ADIDAS</a>
+                </li>
+                <li>
+                  <a href="#" data-type = "Puma">PUMA</a>
+                </li>
+              </ul>
+            </li>
+          </div>
+          <div class="search">
+            <input type="text" placeholder="Tìm kiếm sản phẩm" id="sr" /><i
+              class="fa-solid fa-magnifying-glass"
+            ></i>
+          </div>
+          <div class="user"><i class="fa-solid fa-user"></i>
+          </div>
+          <div class="shopping"><i class="fa-solid fa-cart-shopping" onclick="cart()" style="cursor: pointer"></i></div>
+        </main>
+        </div>
+      <main class="br-main">
+        <img
+          src="/DoAnWebGroup8/img_admin/anhtrangchu.jpg"
+          alt="Anh trang chu"
+        />
+        <div class="content">
+          <p class="content1">since 2024</p>
+          <p class="content2">GROUP EIGHT</p>
+          <p class="content3">STORE</p>
+          <p class="content4">By Group 8 form SGU-Web1</p>
+        </div>
+      </main>
+    </header>
+    <main class="special">
+      <div class="first">
+        <div class="first2">
+          <p class="tieude">
+            _______________________CÁC SẢN PHẨM NỔI BẬT_______________________
+          </p>
+          <div class = "imgSpecialProduct">
+          </div>
+        </div>
+        <img
+          src="/DoAnWebGroup8/img_admin/anhsale.jpg"
+          alt="sale black friday"
+          class="first4"
+        />
+      </div>
+    </main>
+    <main class = "content-navigation">
+      <div id= "content">
+    </div>
+    </main>
+     <!-- List sản phẩm giày -->
+     <main class = "listShoesProduct">
+      <nav class = "listTypeShoes">
+        <div class = "managerListTypeShoes">
+          <a href="#" data-type="all">Tất cả sản phẩm</a>
+          <a href="#" data-type="artificialGrassShoes">Giày cỏ nhân tạo</a>
+          <a href="#" data-type = "naturalGlassShoes">Giày cỏ tự nhiên</a>
+          <a href="#"  data-type = "kidsShoes">Giày bóng đá trẻ em</a>
+        </div>
+      </nav>
+      <div class = "managerButtonPage">
+        <button type = "button" class = "beforePage" ><i class="fa-solid fa-arrow-left-long"></i>Trang trước</button>
+        <button type = "button" class = "afterPage" >Trang sau<i class="fa-solid fa-arrow-right-long"></i></button>
+      </div>
+      <div class = "otherTypeShoes" id = "otherTypeShoes"></div>
+      <div class = "managerButtonPage">
+        <button type = "button" class = "beforePage"  ><i class="fa-solid fa-arrow-left-long"></i>Trang trước</button>
+        <button type = "button" class = "afterPage" >Trang sau<i class="fa-solid fa-arrow-right-long"></i></button>
+      </div>
+    </main>
+    <!-- Chi tiết sản phẩm giày-->
+     <main class = "detailProductShoes">
+      <div id = "showDetailProduct">
+      </div>
+     </main>
+     <!-- List sản phẩm quần áo -->
+      <main class = "listClothesProduct">
+        <nav class = "listTypeClothes">
+          <div class = "managerListTypeClothes">
+            <a href="#" data-type = "allClothes">Tất cả sản phẩm</a>
+            <a href="#" data-type = "clubFootballClothing">Quần áo các câu lạc bộ </a>
+            <a href="#" data-type = "nationalFootballClothing">Quần áo đội tuyển quốc gia</a>
+            <a href="#" data-type = "childrenFootballClothing">Quần áo bóng đá trẻ em</a>
+          </div>
+        </nav>
+        <div class = "managerButtonPage">
+          <button type = "button" class = "beforePageClothes" ><i class="fa-solid fa-arrow-left-long"></i>Trang trước</button>
+          <button type = "button" class = "afterPageClothes" >Trang sau<i class="fa-solid fa-arrow-right-long"></i></button>
+        </div>
+        <div class = "otherTypeClothes" id = "otherTypeClothes">
+        </div>
+        <div class = "managerButtonPage">
+          <button type = "button" class = "beforePageClothes" ><i class="fa-solid fa-arrow-left-long"></i>Trang trước</button>
+          <button type = "button" class = "afterPageClothes" >Trang sau<i class="fa-solid fa-arrow-right-long"></i></button>
+        </div>
+      </main>
+      <!-- Chi tiết sản phẩm quần áo -->
+       <main class = "detailProductClothes">
+        <div id = "showDetailProductClothes">
+      
+        </div>
+       </main>
+       <!-- List sản phẩm brand -->
+       <main class = "listBrandProduct">
+        <nav class = "listTypeBrand">
+          <div class = "managerListTypeBrand">
+            <a href="#" data-type="allBrand">Tất cả sản phẩm</a>
+            <a href="#" data-type="Adidas">Adidas</a>
+            <a href="#" data-type = "Nike">Nike</a>
+            <a href="#" data-type = "Puma">Puma</a>
+          </div>
+        </nav>
+        <div class = "managerButtonPage">  
+          <button type = "button" class = "beforePageBrand" ><i class="fa-solid fa-arrow-left-long"></i>Trang trước</button>
+          <button type = "button" class = "afterPageBrand" >Trang sau<i class="fa-solid fa-arrow-right-long"></i></button>
+        </div>
+        <div class = "otherTypeBrand" id = "otherTypeBrand"></div>
+        <div class = "managerButtonPage">
+          <button type = "button" class = "beforePageBrand"  ><i class="fa-solid fa-arrow-left-long"></i>Trang trước</button>
+          <button type = "button" class = "afterPageBrand" >Trang sau<i class="fa-solid fa-arrow-right-long"></i></button>
+        </div>
+      </main>
+        <!-- Chi tiết sản phẩm theo brand  -->
+        <main class = "detailProductBrand">
+          <div id = "showDetailProductBrand">
+        
+          </div>
+         </main>
+    <!-- San pham trung bay trang chu -->
+    <main class = "productDisplayHome">
+      <!-- Shoes -->
+      <nav class = "navProductShoesHome">
+        <p class = "productShoesHome">Giày bóng đá</p>
+        <a href="#" class = "allProductShoesHome" data-type="all">Xem tất cả <i class="fa-solid fa-angle-right"></i></a>
+      </nav>
+      <main class = "productShoesDisplayHome" id = "productShoesDisplayHome">
+        <button type = "button" class = "buttonLeft" style="color:azure"><i class="fa-solid fa-angles-left"></i></button>
+        <button type="button" class = "buttonRight" style="color:azure"><i class="fa-solid fa-angles-right"></i></button>
+      </main>
+      <!-- Clothes --> 
+      <nav class = "navProductClothesHome">
+        <p class = "productClothesHome">Quần áo bóng đá</p>
+        <a href="#" class = "allProductClothesHome" data-type="allClothes">Xem tất cả <i class="fa-solid fa-angle-right"></i></a>
+      </nav>
+      <main class = "productClothesDisplayHome">
+        <button type="button" class = "buttonLeftClothes" style="color:azure"><i class="fa-solid fa-angles-left"></i></button>
+        <button type="button" class = "buttonRightClothes" style="color:azure"><i class="fa-solid fa-angles-right"></i></button>
+      </main>
+    </main>
+    <!-- Hoa don thanh toan -->
+    <div class="invoice" style="display: none;">
+      <div class="information-invoice">
+        <p style="font-size: 35px; margin-left: 50px; margin-top: 30px;margin-bottom: 30px;">Thông tin đơn hàng</p>
+        <div class="name-customer" style="margin-bottom: 10px; margin-left: 30px;">
+          <input
+            type="text"
+            placeholder="Tên *"
+            style="width: 302px; margin-left: 10px; height: 30px"
+          />
+          <input
+            type="text"
+            placeholder="Họ *"
+            style="width: 293px; margin-left: 10px; height: 30px"
+          />
+        </div>
+        <p
+          style="
+            margin-left: 55px;
+            margin-top: -0.01px;
+            font-size: 15px;
+            opacity: 0.6;
+          "
+        >
+          Vui lòng điền đầy đủ họ và tên
+        </p>
+        <input
+          type="text"
+          placeholder="Số nhà/ Tên đường *"
+          style="
+            width: 610px;
+            margin-left: 40px;
+            height: 30px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+          "
+        />
+        <p
+          style="
+            margin-left: 55px;
+            margin-top: -0.01px;
+            font-size: 15px;
+            opacity: 0.6;
+          "
+        >
+          Ví dụ: 33 Lê Duẩn ...
+        </p>
+        <input
+          type="text"
+          placeholder="Tên tòa nhà/Số tầng..."
+          style="
+            width: 610px;
+            margin-left: 40px;
+            height: 30px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+          "
+        />
+        <p
+          style="
+            margin-left: 55px;
+            margin-top: -0.01px;
+            font-size: 15px;
+            opacity: 0.6;
+          "
+        >
+          Ví dụ:Tòa nhà SGU; Tòa X1 - Chung cư SGU,....
+        </p>
+        <div class="city-district-ward">
+          <select name="city" id="city" placeholder="Thành phố/Tỉnh thành">
+            <option value="" disabled selected>Thành phố/Tỉnh thành</option>
+          </select>
+          <select name="district" id="district" placeholder="Quận/Huyện">
+            <option value="" disabled selected>Quận/Huyện</option>
+          </select>
+          <select name="ward" id="ward" placeholder="Phường/Xã">
+            <option value="" disabled selected>Phường/Xã</option>
+          </select>
+          <input
+            type="text"
+            id="postal-code"
+            placeholder="Mã bưu chính *"
+            style="
+              width: 293px;
+              margin-left: 10px;
+              margin-top: 10px;
+              height: 30px;
+            "
+          />
+        </div>
+        <p
+          style="
+            margin-left: 355px;
+            margin-top: 5px;
+            font-size: 15px;
+            opacity: 0.6;
+          "
+        >
+          Ví dụ:70000
+        </p>
+        <p style="margin-left: 40px; margin-top: 20px">Quốc gia: Việt Nam</p>
+        <input
+          type="text"
+          placeholder="Số điện thoại *"
+          style="width: 293px; margin-left: 40px; height: 30px; margin-top: 15px;"
+        />
+        <p style="margin-left: 40px; margin-top: 45px;margin-bottom: 15px;">
+          Phương thức thanh toán
+        </p>
+        <div class="payment-customer">
+          <select
+            name="payment"
+            id=""
+            placeholder="Tùy chọn"
+            style="width: 500px; height: 30px; margin-left: 40px"
+          >
+            <option value="" disabled selected>Tùy chọn</option>
+          </select>
+          <button
+            type="submit"
+            style="width: 180px; height: 35px; margin: 20px auto"
+          >
+            HOÀN TẤT ĐƠN HÀNG
+          </button>
+        </div>
+      </div>
+      <div class="product-invoice"></div>
+    </div>
+    <!-- Footer -->
+    <footer class="in4">  
+      <div class="in4-1">
+        <p>TRỤ SỞ CHÍNH: 273 An Dương Vương, Phường 3, Quận 5, TP.HCM</p>
+        <p>
+          CƠ SỞ 1: 105 Bà Huyện Thanh Quan, Phường Võ Thị Sáu, Quận 3, TP.HCM
+        </p>
+        <p>CƠ SỞ 2: 04 Tôn Đức Thắng, Phường Bến Nghé, Quận 1, TP.HCM</p>
+        <p>Email: group8SGU@gmail.com</p>
+      </div>
+      <div class="in4-2">
+        <p style="font-weight: bold; font-size: 17px">HỖ TRỢ KHÁCH HÀNG</p>
+        <p style="padding: 20px 0px 15px 0px">Chọn size giày bóng đá</p>
+        <p style="padding-bottom: 15px">Giao hàng tận nơi</p>
+        <p style="padding-bottom: 15px">Bảo hành và đổi trả</p>
+        <p>Ưu đãi tặng quà</p>
+      </div>
+      <div class="in4-3">
+        <p style="font-weight: bold; font-size: 17px">
+          THEO DÕI GROUP EIGHT STORE QUA MẠNG XÃ HỘI
+        </p>
+        <div class="icon">
+          <span
+            ><img
+              src="https://www.youtube.com/s/desktop/87338098/img/favicon_96x96.png"
+              style="width: 70px; height: 70px; padding-right: 10px"
+          /></span>
+          <span
+            ><img
+              src="https://1.bp.blogspot.com/-S8HTBQqmfcs/XN0ACIRD9PI/AAAAAAAAAlo/FLhccuLdMfIFLhocRjWqsr9cVGdTN_8sgCPcBGAYYCw/s1600/f_logo_RGB-Blue_1024.png"
+              alt=""
+              style="width: 60px"
+              style="height: 60px"
+          /></span>
+        </div>
+        <div class = "logo-contact">
+            <div class = "logo1"><a href=""></a>
+                <img src="/DoAnWebGroup8/img_admin/22-220966_phone-icon-png-red-icon-in-thoi-png.png" alt=""
+                
+                >
+            </a></div>
+            <div class = "logo2"><a href=""></a>
+                <img src="/DoAnWebGroup8/img_admin/logo-transperant.png" alt="" >
+            </a></div>
+            <div class = "logo3"><a href=""></a>
+                <img src="/DoAnWebGroup8/img_admin/messenger-icon-free-png.webp" alt="" >
+            </a></div>
+    </footer>
+    <script src = "/DoAnWebGroup8/JS/header.js"></script>
+    <script src = "/DoAnWebGroup8/JS/shoesProduct.js"></script>
+    <script src = "/DoAnWebGroup8/JS/clothesProduct.js"></script>
+    <script src = "/DoAnWebGroup8/JS/brand.js"></script>
+    <script src = "/DoAnWebGroup8/JS/buttonHome.js"></script>
+    <script src = "/DoAnWebGroup8/JS/hightProduct.js"></script>
+    <script src = "/DoAnWebGroup8/JS/search.js"></script>
+    <script src = "/DoAnWebGroup8/JS/login-signin.js"></script>
+    <script src = "./Cart/cart.js"></script>
+  </body>
+</html>

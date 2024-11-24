@@ -1,0 +1,51 @@
+.support-customer {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  padding-top: 100px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.address-contact {
+  display: flex;
+  /* border: 1px solid black; */
+  /* margin-right: 10px; */
+}
+.contact-support {
+  width: calc(100% - 50%);
+  /* border: 1px solid black; */
+  background-color: rgb(221, 212, 205);
+  margin-right: 10px;
+}
+.address-support {
+  margin-left: auto;
+  width: calc(100% - 50%);
+  /* border: 1px solid black; */
+  margin-left: 10px;
+}
+.information-customer {
+  display: flex;
+  /* border: 1px solid black; */
+  height: 500px;
+  margin-top: 20px;
+}
+.commitment {
+  background-color: rgb(86, 86, 86);
+  border: 1px solid black;
+  width: calc(100% - 50%);
+  margin-right: 10px;
+}
+.information-contact {
+  margin-left: auto;
+  width: calc(100% - 50%);
+  /* border: 1px solid black; */
+  background-color: grey;
+  margin-left: 10px;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+  align-items: center;
+  height: 100%;
+}

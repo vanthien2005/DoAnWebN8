@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" />
+    <link rel="stylesheet" href="admin.css" />
+    <title>Admin</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <button type="button" onclick="exit()">Hai Tran</button>
+      </div>
+      <div id="leftmenu">
+        <div id="trangchu">
+          <div id="card_home">
+            <img src="./img_admin/home.png" alt="" />
+          </div>
+          <button class="content_menu" onclick="gohome()">Trang chủ</button>
+        </div>
+        <div id="sanpham">
+          <div id="card_product">
+            <img src="./img_admin/product.png" alt="" />
+          </div>
+          <button class="content_menu" onclick="xuatDSSP()">Sản phẩm</button>
+        </div>
+        <div id="donhang">
+          <div id="card_order">
+            <img src="./img_admin/order.png" alt="" />
+          </div>
+          <button class="content_menu" onclick="xuatDS_DH()">Đơn hàng</button>
+        </div>
+        <div id="khachhang">
+          <div id="card_customer">
+            <img src="./img_admin/customer.png" alt="" />
+          </div>
+          <button class="content_menu" onclick="xuatDS_KH()">Khách hàng</button>
+        </div>
+        <div id="doanhthu">
+          <div id="card_revenue">
+            <img src="./img_admin/revenue.png" alt="" />
+          </div>
+          <button class="content_menu" onclick="xuatDS_DT()">Doanh thu</button>
+        </div>
+      </div>
+      <div id="Content1">
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+          "
+        >
+          <div id="Mid_content1">
+            <h1 id="h1_sp"></h1>
+            <table id="table1"></table>
+            <ul id="pagination1"></ul>
+          </div>
+          <div id="timkiemSP"></div>
+          <div id="themSP"></div>
+        </div>
+        <div id="fake_background1"><div id="suaSP"></div></div>
+      </div>
+      <div id="Content2">
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+          "
+        >
+          <div id="Mid_content2">
+            <h1 id="h1_dh"></h1>
+            <table id="table2"></table>
+            <ul id="pagination2"></ul>
+          </div>
+          <div id="timkiemDH"></div>
+        </div>
+        <div id="fake_background2"><div id="suaDH"></div></div>
+        <div id="fake_background3"><div id="chitietDH"></div></div>
+      </div>
+      <div id="Content3">
+        <div id="Mid_content3">
+          <h1 id="h1_kh"></h1>
+          <table id="table3"></table>
+          <ul id="pagination3"></ul>
+        </div>
+        <div id="timkiemkh"></div>
+        <div id="themKH"></div>
+        <div id="fake_background5"><div id="suaKH"></div></div>
+      </div>
+      <div id="Content4">
+        <div id="Mid_content4">
+          <h1 style="text-align: center; font-size: 30px">
+            Thống kê theo khoảng thời gian
+          </h1>
+          <div id="searchdate">
+            <input type="date" id="date1" />
+            <label for="đến ngày">To</label>
+            <input type="date" name="" id="date2" />
+            <br />
+            <button
+              id="loc "
+              style="margin-top: 10px"
+              onclick="kt_date();xuatDS_DT()"
+            >
+              lọc
+            </button>
+          </div>
+          <h1 id="h1_dt"></h1>
+          <table id="table4"></table>
+          <p id="tongthu"></p>
+          <p id="banchay"></p>
+          <p id="bancham"></p>
+          <h1 id="h1_dt1"></h1>
+          <table id="table5"></table>
+          <p id="topkh"></p>
+        </div>
+        <div id="fake_background4">
+          <div id="xemhoadon"></div>
+          <div id="fake_background6"><div id="xemChiTiet"></div></div>
+        </div>
+      </div>
+    </div>
+    <script src="./admin_js/sanPham.js"></script>
+    <script src="./admin_js/donHang.js"></script>
+    <script src="./admin_js/khachHang.js"></script>
+    <script src="./admin_js/doanhThu.js"></script>
+    <script src="../JS/login-signin.js"></script>
+  </body>
+</html>

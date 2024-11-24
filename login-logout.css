@@ -1,0 +1,141 @@
+.imgLogin {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  width: 100%;
+}
+#login {
+  position: relative;
+  height: 100vh;
+  /* border: 3px solid lime; */
+}
+#contain {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* border: 3px solid red; */
+  text-align: center;
+  padding: 5% 5%;
+  background-color: rgba(0, 0, 0, 0.541);
+}
+input {
+  width: 50%;
+  color: white;
+}
+input[type="text"],
+input[type="tel"] {
+  margin: 5px 5px;
+  display: inline-block;
+  width: 100%;
+  background: none;
+  border: 3px solid white;
+  height: 50px;
+}
+input[type="password"] {
+  width: 50%;
+  background: none;
+  border: 3px solid white;
+  height: 50px;
+}
+input[type="text"]:placeholder-shown,
+input[type="password"]:placeholder-shown,
+input[type="tel"] {
+  font-weight: bold;
+}
+#ps {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+#password1 {
+  margin-right: 10px;
+}
+#password_again {
+  margin-left: 15px;
+}
+
+#P,
+#K {
+  margin-top: 60px;
+  width: 40%;
+  height: 40px;
+  background: none;
+  color: white;
+  border: 3px solid white;
+}
+#P:hover,
+#K:hover {
+  background-color: rgba(0, 255, 0, 0.5);
+  cursor: pointer;
+}
+#i {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+#login {
+  width: 100%;
+  color: white;
+  font-family: sans-serif;
+  position: relative;
+  height: 100vh;
+  /* border: 3px solid lime; */
+}
+#contain {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /* border: 3px solid red; */
+  text-align: center;
+  padding: 5% 5%;
+  background-color: rgba(0, 0, 0, 0.541);
+}
+input {
+  margin: 3% 3%;
+  width: 50%;
+  color: white;
+  display: inline-block;
+}
+input[type="text"] {
+  width: 100%;
+  background: none;
+  border: 3px solid white;
+}
+input[type="password"] {
+  width: 100%;
+  background: none;
+  border: 3px solid white;
+}
+#signin {
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#signin span {
+  padding: 5px 3px;
+}
+#link {
+  color: white;
+  text-decoration: underline;
+}
+#link:hover {
+  color: red;
+}
+#P {
+  margin-top: 60px;
+  width: 40%;
+  height: 40px;
+  background: none;
+  color: white;
+  border: 3px solid white;
+}
+#b:hover {
+  background-color: rgba(0, 255, 0, 0.5);
+  cursor: pointer;
+}

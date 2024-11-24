@@ -1,0 +1,95 @@
+.otherTypeClothes article {
+  margin: 10px 0px 10px 40px;
+  display: inline-block;
+}
+.listClothesProduct {
+  /* border: 1px solid black; */
+  margin: 85px 50px 0px;
+}
+.listTypeClothes {
+  margin-top: 10px;
+}
+.managerListTypeClothes {
+  display: flex;
+  justify-content: space-around;
+}
+/* .allProductShoes {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 1px solid black;
+  } */
+/* .allProductShoes article {
+    margin: 10px 0px 10px 40px;
+    display: inline-block;
+  } */
+.managerListTypeClothes a {
+  font-size: 25px;
+  margin-top: 5px;
+  color: aliceblue;
+}
+.managerImgClothes {
+  position: relative;
+}
+.managerImgClothes img:last-child {
+  position: absolute;
+  left: 0;
+  top: -265px;
+  display: none;
+}
+.managerImgClothes:hover img:last-child {
+  display: block;
+}
+.managerImgClothes img {
+  width: 280px;
+  height: 280px;
+}
+.managerContentClothes {
+  font-size: 20px;
+  display: inline-block;
+  width: 280px;
+  color: aliceblue;
+}
+.managerContentClothes p:first-child {
+  margin-top: 5px;
+  overflow-wrap: break-word;
+  height: 40px;
+}
+.managerContentClothes p:last-child {
+  margin-top: 7px;
+}
+.backHome {
+  margin-left: 40px;
+  font-size: 35px;
+  width: 70px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+.managerButtonPage {
+  text-align: center;
+  margin-top: 30px;
+}
+.managerButtonPage button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0.9;
+}
+.managerButtonPage button:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+}
+.fa-arrow-left-long,
+.fa-arrow-right-long {
+  opacity: 0.7;
+}
+.fa-arrow-left-long {
+  margin-right: 5px;
+}
+.fa-arrow-right-long {
+  margin-left: 5px;
+}

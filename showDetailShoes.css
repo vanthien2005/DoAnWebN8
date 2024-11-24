@@ -1,0 +1,77 @@
+.listShoesProduct article {
+  display: block;
+}
+.detailProductShoes {
+  /* border: 1px solid black; */
+  margin: 0 50px;
+  margin-top: 87px;
+}
+#showDetailProduct {
+  /* border: 1px solid black; */
+  margin-top: 5px;
+}
+.managerDetailShoes {
+  display: flex;
+  /* border: 1px solid black; */
+  margin: 0 45px;
+}
+.managerImgDetailShoes {
+  display: flex;
+  flex-direction: column;
+}
+.managerImgDetailShoes a:first-child img {
+  width: 500px;
+  height: 470px;
+}
+.managerImgDetailShoes a:last-child img {
+  width: 122px;
+  height: 115px;
+}
+.managerContentDetailShoes {
+  /* margin-top: px; */
+  margin-left: 80px;
+  color: aliceblue;
+}
+.managerContentDetailShoes p:first-child {
+  font-size: 50px;
+  margin-top: 20px;
+}
+.managerContentDetailShoes p:nth-child(2) {
+  font-size: 35px;
+  color: red;
+  margin-top: 10px;
+}
+.managerContentDetailShoes p:nth-child(4) {
+  font-size: 25px;
+  margin-top: 10px;
+}
+.managerContentDetailShoes a {
+  display: block;
+  font-size: 20px;
+  text-decoration: underline;
+  margin-top: 15px;
+}
+.managerContentDetailShoes ul li {
+  list-style: disc;
+  font-size: 25px;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+.managerContentDetailShoes > button {
+  font-size: 23px;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.managerContentDetailShoes div button {
+  font-size: 22px;
+  margin-top: 15px;
+  height: 65px;
+  width: 260px;
+  margin-right: 40px;
+  background-color: rgb(23, 23, 23);
+  color: rgb(255, 229, 229);
+  cursor: pointer;
+}

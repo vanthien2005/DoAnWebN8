@@ -1,0 +1,46 @@
+.invoice {
+  display: flex;
+  /* border: 1px solid black; */
+  margin: 0 40px;
+  height: 750px;
+  padding-top: 80px;
+  /* display: none; */
+}
+.information-invoice {
+  width: calc(100% - 50%);
+  border: 1px solid black;
+  /* margin-left: 20px; */
+  background-color: rgb(114, 105, 105);
+}
+.city-district-ward {
+  display: flex;
+  flex-wrap: wrap;
+}
+#city {
+  margin-left: 40px;
+}
+#district {
+  margin-left: 10px;
+}
+#ward {
+  margin-left: 40px;
+}
+#city,
+#district,
+#ward {
+  width: 300px;
+  height: 30px;
+  /* margin-left: 10px; */
+}
+#city,
+#district {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#ward {
+  margin-top: 10px;
+}
+.payment-customer {
+  display: flex;
+  flex-direction: column;
+}
